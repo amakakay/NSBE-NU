@@ -1,0 +1,205 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Georgia", serif;
+}
+
+/* Header: 1/8 of the page */
+.header {
+  height: 12.5vh;
+  background-color: #FFD700; /* gold */
+  color: #FFFFFF; /* white */
+  font-family: "Georgia", serif;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0 20px;
+}
+
+/* Middle section: 1/3 of the page */
+.events {
+  height: 33.33vh;
+  background-color: #FFFFFF; /* white */
+  color: #000000; /* black */
+  font-family: "Georgia", serif;
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.events h2 {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+/* Bottom section: 1/5 of the page */
+.sponsors {
+  height: 20vh;
+  background-color: #000000; /* black */
+  color: #FFFFFF; /* white */
+  font-family: "Georgia", serif;
+  font-size: 17px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 20px;
+}
+
+.sponsors h2 {
+  font-size: 17px;
+}
+/* Navigation bar */
+.navbar {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  background-color: #000000;
+  padding: 15px 0;
+}
+
+.navbar a {
+  color: #FFFFFF;
+  font-family: "Georgia", serif;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  color: #FFD700;
+}
+
+/* Page header banner (used on inner pages) */
+.page-banner {
+  background-color: #FFD700;
+  color: #FFFFFF;
+  font-family: "Georgia", serif;
+  font-size: 24px;
+  text-align: center;
+  padding: 20px;
+}
+
+/* About Us page */
+.group-photo {
+  width: 100%;
+  max-width: 800px;
+  display: block;
+  margin: 30px auto;
+  border: 4px solid #FFD700;
+}
+
+.group-photo-placeholder {
+  width: 100%;
+  max-width: 800px;
+  height: 300px;
+  margin: 30px auto;
+  background-color: #e0e0e0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Georgia", serif;
+  color: #555;
+  border: 2px dashed #999;
+}
+
+.accomplishments {
+  max-width: 800px;
+  margin: 0 auto 40px auto;
+  padding: 0 20px;
+  font-family: "Georgia", serif;
+  color: #000000;
+}
+
+.accomplishments h2 {
+  margin-bottom: 15px;
+}
+
+.accomplishments ul {
+  margin-left: 20px;
+  line-height: 1.8;
+}
+
+/* Meet the Executives page */
+.exec-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  padding: 40px 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.exec-card {
+  width: 200px;
+  text-align: center;
+  font-family: "Georgia", serif;
+}
+
+.exec-photo-placeholder {
+  width: 180px;
+  height: 180px;
+  background-color: #e0e0e0;
+  border: 2px dashed #999;
+  margin: 0 auto 10px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #555;
+  font-size: 14px;
+}
+
+.exec-card h3 {
+  margin-bottom: 4px;
+}
+
+.exec-card p {
+  color: #555;
+  font-size: 14px;
+}
+
+/* Contact Us page */
+.contact-info {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 0 20px;
+  font-family: "Georgia", serif;
+  color: #000000;
+  line-height: 2;
+}
+
+/* Donations page */
+.donations-content {
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 0 20px;
+  font-family: "Georgia", serif;
+  color: #000000;
+  line-height: 1.8;
+  text-align: center;
+}
+
+.donate-button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 15px 30px;
+  background-color: #FFD700;
+  color: #000000;
+  font-family: "Georgia", serif;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.donate-button:hover {
+  background-color: #e6c200;
+}
