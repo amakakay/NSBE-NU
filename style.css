@@ -41,6 +41,7 @@ body {
   width: 100%;
   overflow: hidden;
   background-color: #cccccc; /* shows even before an image is added */
+  <img src="images/group.jpg" alt="NSBE Northwestern group photo" class="home-group-photo">
 }
 
 .hero-image-bg {
