@@ -40,6 +40,14 @@ body {
   padding: 2rem 1rem;
 }
 
+.hero-image-bg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.3; /* faded look */
+  display: block;
+}
+
 .home-group-photo img {
   max-width: 100%;
   width: 600px;
